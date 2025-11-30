@@ -18,7 +18,7 @@ function App() {
         <Services />
         <Opensource />
         <Contact />
-        <Foter />
+        <Foter/>
     </div>
     </>
   );

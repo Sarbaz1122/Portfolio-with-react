@@ -1,5 +1,4 @@
 import React from 'react'
-// import src  from './4.jpg'
 import pic from './profilePic.jpg'
 
 function Foter() {

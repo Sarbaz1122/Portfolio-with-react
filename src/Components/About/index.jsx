@@ -1,13 +1,14 @@
 import React from 'react';
 import pic from './profilePic.jpg'
-// import MySVG from "./Welcome to My Portfolio (1).png";
 import image from './myImage.Jpg'
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaReddit } from "react-icons/fa";
 
 
 function About() {
   return (
+
     <>
+    <section id="about">
     {/* <--Main dev--> */}
     <div className="App w-600 h-145 py-160 ml-40 -mt-20 bg-blue-200 max-20 rounded-2xl shadow-amber-200" >
       <div className="Header ">
@@ -117,7 +118,7 @@ function About() {
 
 
     </div>
-    
+</section>    
     </> 
   );
 }
